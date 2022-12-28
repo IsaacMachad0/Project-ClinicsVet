@@ -1,0 +1,61 @@
+section {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.services,
+.horarios {
+    background-color: #FFF;
+    width: 80%;
+    padding: 40px;
+    border-radius: 80px 30px;
+    box-shadow: 9px 6px 15px 4px rgba(0,0,0,0.46);
+}
+.services h1 {
+    font-size: 35px;
+    text-align: center;
+    color: rgb(0, 126, 103);
+}
+
+.services-content {
+    margin-top: 30px;
+}
+.services-content h2 {
+    color: rgb(0, 126, 103);
+    margin-bottom: 15px;    
+}
+.services-content p {
+    margin-bottom: 10px;
+}
+mark {
+    font-weight: bold;
+    background-color: lightgreen;
+    padding: 2px;
+}
+
+.horarios {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.horarios h1 {
+    color: rgb(0, 126, 103);
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+table {
+    text-align: center;
+}
+
+td, th {
+    padding: 10px;
+    width: 169px;
+}
+th {
+    background-color: rgb(0, 126, 103);
+}
+tr:nth-child(even) {
+    background-color: rgb(202, 245, 167);
+}

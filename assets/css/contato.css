@@ -1,0 +1,106 @@
+.content {
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.content-form {
+    background-color: #FFF;
+    width: 50%;
+    box-shadow: 9px 6px 15px 4px rgba(0,0,0,0.46);
+    border-radius: 100px 30px;
+}
+
+.content-form h1 {
+    font-size: 40px;
+    margin: 20px;
+    color: rgb(0, 126, 103);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input {
+    width: 250px;
+    height: 20px;
+    margin: 45px 0px 0px 10px;
+    margin-right: 0;
+    padding: 10px;
+    resize: none;
+    border-color: rgb(126, 182, 81);
+}
+form i {
+    font-size: 20px;
+    color: rgb(126, 182, 81);
+}
+textarea{
+    width: 300px;
+    height: 100px;
+    margin: 40px;
+    padding: 10px;
+    resize: none;
+    border: 2.5px solid rgb(126, 182, 81);
+}
+
+form button {
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(126, 182, 81);
+    border: 0;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+form button:hover {
+    background-color: rgb(0, 126, 103);
+}
+
+
+.content-info {
+    width: 90%;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 9px 6px 15px 4px rgba(0,0,0,0.46);
+    border-radius: 100px 30px;
+}
+
+.content-info-contato {
+    color: rgb(0, 126, 103);
+    padding: 30px;
+    margin-top: 10%;
+}
+
+.content-info-contato span {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.content-info-contato h1 {
+    font-size: 40px;
+    text-align: left;
+}
+.content-info-contato li {
+    list-style: none;
+    text-align: left;
+    margin-top: 20px;
+}
+.content-info-contato ul {
+    margin-top: 30px;
+}
+.content-info-contato i {
+    color: rgb(0, 126, 103);
+    font-size: 20px;
+    margin: 5px;
+}
+
+.content-info-map {
+    padding: 30px;
+}
